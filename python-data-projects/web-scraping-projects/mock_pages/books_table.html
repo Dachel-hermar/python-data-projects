@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Base de Datos de Libros Recomentados</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f8f9fa;
+        }
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+            background-color: white;
+        }
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        th {
+            background-color: #34495e;
+            color: white;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 0.9rem;
+        }
+        tr:hover {
+            background-color: #f1f3f5;
+        }
+        .genre-badge {
+            background-color: #e2e8f0;
+            color: #4a5568;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            font-weight: bold;
+        }
+        .price-val {
+            font-weight: bold;
+            color: #2e7d32;
+        }
+        .rating-badge {
+            background-color: #fff9db;
+            color: #f59f00;
+            font-weight: bold;
+            padding: 2px 6px;
+            border-radius: 4px;
+            border: 1px solid #ffe066;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Colección de Libros Destacados</h1>
+    <p>La siguiente tabla muestra una lista curada de novelas y libros de desarrollo. Tu misión es extraer estos datos en un formato legible para analizarlos en Python.</p>
+
+    <table id="books-table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Título del Libro</th>
+                <th>Autor</th>
+                <th>Año</th>
+                <th>Género</th>
+                <th>Puntuación</th>
+                <th>Precio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>BK-01</td>
+                <td>Don Quijote de la Mancha</td>
+                <td>Miguel de Cervantes</td>
+                <td>1605</td>
+                <td><span class="genre-badge">Novela</span></td>
+                <td><span class="rating-badge">4.9</span></td>
+                <td class="price-val">15.99 €</td>
+            </tr>
+            <tr>
+                <td>BK-02</td>
+                <td>Cien años de soledad</td>
+                <td>Gabriel García Márquez</td>
+                <td>1967</td>
+                <td><span class="genre-badge">Realismo Mágico</span></td>
+                <td><span class="rating-badge">4.8</span></td>
+                <td class="price-val">12.50 €</td>
+            </tr>
+            <tr>
+                <td>BK-03</td>
+                <td>1984</td>
+                <td>George Orwell</td>
+                <td>1949</td>
+                <td><span class="genre-badge">Distopía</span></td>
+                <td><span class="rating-badge">4.7</span></td>
+                <td class="price-val">9.99 €</td>
+            </tr>
+            <tr>
+                <td>BK-04</td>
+                <td>El Hobbit</td>
+                <td>J.R.R. Tolkien</td>
+                <td>1937</td>
+                <td><span class="genre-badge">Fantasía</span></td>
+                <td><span class="rating-badge">4.9</span></td>
+                <td class="price-val">18.00 €</td>
+            </tr>
+            <tr>
+                <td>BK-05</td>
+                <td>Clean Code</td>
+                <td>Robert C. Martin</td>
+                <td>2008</td>
+                <td><span class="genre-badge">Tecnología</span></td>
+                <td><span class="rating-badge">4.6</span></td>
+                <td class="price-val">34.90 €</td>
+            </tr>
+            <tr>
+                <td>BK-06</td>
+                <td>El Principito</td>
+                <td>Antoine de Saint-Exupéry</td>
+                <td>1943</td>
+                <td><span class="genre-badge">Literatura Infantil</span></td>
+                <td><span class="rating-badge">4.8</span></td>
+                <td class="price-val">7.50 €</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>

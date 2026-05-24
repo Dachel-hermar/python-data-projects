@@ -1,0 +1,57 @@
+[
+    {
+        "id": "prod-001",
+        "marca": "RazerX",
+        "titulo": "Teclado Mecánico RGB Pro",
+        "enlace": "/productos/teclado-mecanico-rgb-pro",
+        "puntuacion": 4.8,
+        "opiniones": 124,
+        "precio": 89.99,
+        "precio_original": 119.99,
+        "disponibilidad": "En Stock (25 unidades)"
+    },
+    {
+        "id": "prod-002",
+        "marca": "LogitechZ",
+        "titulo": "Mouse Gaming Inalámbrico X1",
+        "enlace": "/productos/mouse-gaming-inalambrico-x1",
+        "puntuacion": 4.5,
+        "opiniones": 85,
+        "precio": 45.5,
+        "precio_original": null,
+        "disponibilidad": "¡Pocas unidades! (3 restantes)"
+    },
+    {
+        "id": "prod-003",
+        "marca": "SamsungY",
+        "titulo": "Monitor 4K UHD 27\" Curvo",
+        "enlace": "/productos/monitor-4k-uhd-27-curvo",
+        "puntuacion": 4.2,
+        "opiniones": 43,
+        "precio": 299.99,
+        "precio_original": 349.99,
+        "disponibilidad": "En Stock"
+    },
+    {
+        "id": "prod-004",
+        "marca": "SonyW",
+        "titulo": "Auriculares Cancelación Ruido H9",
+        "enlace": "/productos/auriculares-cancelacion-ruido-h9",
+        "puntuacion": 3.9,
+        "opiniones": 19,
+        "precio": 120.0,
+        "precio_original": null,
+        "disponibilidad": "Agotado Temporalmente"
+    },
+    {
+        "id": "prod-005",
+        "marca": "KingstonV",
+        "titulo": "Disco Duro SSD 1TB NVMe M.2",
+        "enlace": "/productos/ssd-1tb-nvme-m2",
+        "puntuacion": 4.9,
+        "opiniones": 310,
+        "precio": 75.0,
+        "precio_original": 89.9,
+        "disponibilidad": "En Stock (50+ unidades)"
+    }
+]

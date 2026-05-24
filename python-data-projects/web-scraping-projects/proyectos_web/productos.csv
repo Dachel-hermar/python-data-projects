@@ -1,0 +1,6 @@
+id,marca,titulo,enlace,puntuacion,opiniones,precio,precio_original,disponibilidad
+prod-001,RazerX,Teclado Mecánico RGB Pro,/productos/teclado-mecanico-rgb-pro,4.8,124,89.99,119.99,En Stock (25 unidades)
+prod-002,LogitechZ,Mouse Gaming Inalámbrico X1,/productos/mouse-gaming-inalambrico-x1,4.5,85,45.5,,¡Pocas unidades! (3 restantes)
+prod-003,SamsungY,"Monitor 4K UHD 27"" Curvo",/productos/monitor-4k-uhd-27-curvo,4.2,43,299.99,349.99,En Stock
+prod-004,SonyW,Auriculares Cancelación Ruido H9,/productos/auriculares-cancelacion-ruido-h9,3.9,19,120.0,,Agotado Temporalmente
+prod-005,KingstonV,Disco Duro SSD 1TB NVMe M.2,/productos/ssd-1tb-nvme-m2,4.9,310,75.0,89.9,En Stock (50+ unidades)

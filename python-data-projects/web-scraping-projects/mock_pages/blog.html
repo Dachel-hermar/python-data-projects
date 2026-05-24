@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bits & Bytes - El Blog de Tecnología</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            background-color: #fafafa;
+            color: #2c3e50;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+        .header h1 {
+            margin: 0 0 10px 0;
+            font-size: 2.5rem;
+        }
+        .container {
+            max-width: 900px;
+            margin: -30px auto 40px auto;
+            padding: 0 20px;
+        }
+        .blog-list {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            padding: 30px;
+        }
+        .post-card {
+            border-bottom: 1px solid #eee;
+            padding-bottom: 25px;
+            margin-bottom: 25px;
+        }
+        .post-card:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+        .post-title {
+            font-size: 1.8rem;
+            margin: 0 0 10px 0;
+        }
+        .post-title a {
+            color: #2c3e50;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+        .post-title a:hover {
+            color: #667eea;
+        }
+        .post-meta {
+            font-size: 0.9rem;
+            color: #7f8c8d;
+            margin-bottom: 15px;
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+        .author {
+            font-weight: bold;
+            color: #34495e;
+        }
+        .date {
+            font-style: italic;
+        }
+        .tags-container {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 15px;
+        }
+        .tag {
+            background-color: #edf2f7;
+            color: #4a5568;
+            font-size: 0.75rem;
+            padding: 3px 8px;
+            border-radius: 999px;
+            text-transform: uppercase;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        .tag:hover {
+            background-color: #e2e8f0;
+            color: #1a202c;
+        }
+        .tag-python { background-color: #e3faf2; color: #0ca678; }
+        .tag-webscraping { background-color: #e8f4fd; color: #1d9bf0; }
+        .tag-devops { background-color: #fff4e6; color: #f76707; }
+        .tag-javascript { background-color: #fff9db; color: #f59f00; }
+        
+        .post-excerpt {
+            color: #555;
+            margin-bottom: 15px;
+        }
+        .read-more {
+            color: #667eea;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        .read-more:hover {
+            text-decoration: underline;
+        }
+        .sidebar {
+            margin-top: 40px;
+            background: #fff;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        }
+        .sidebar h3 {
+            margin-top: 0;
+            border-bottom: 2px solid #667eea;
+            padding-bottom: 10px;
+        }
+        .popular-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Bits & Bytes</h1>
+        <p>Tu dosis diaria de programación, web scraping y desarrollo de software</p>
+    </div>
+
+    <div class="container">
+        <main class="blog-list">
+            
+            <!-- Post 1 -->
+            <article class="post-card" id="post-1">
+                <div class="tags-container">
+                    <a href="/tag/python" class="tag tag-python">Python</a>
+                    <a href="/tag/webscraping" class="tag tag-webscraping">Web Scraping</a>
+                </div>
+                <h2 class="post-title">
+                    <a href="/blog/guia-definitiva-beautifulsoup-2026">Guía definitiva de BeautifulSoup para principiantes en 2026</a>
+                </h2>
+                <div class="post-meta">
+                    <span>Por <span class="author">Carlos Gómez</span></span>
+                    <span>•</span>
+                    <time class="date" datetime="2026-05-18">18 de Mayo, 2026</time>
+                </div>
+                <p class="post-excerpt">
+                    Aprende cómo analizar el HTML de cualquier sitio web, extraer tablas de datos, listas de artículos y cómo resolver problemas comunes como la codificación de caracteres y la navegación por nodos.
+                </p>
+                <a href="/blog/guia-definitiva-beautifulsoup-2026" class="read-more">Leer artículo completo →</a>
+            </article>
+
+            <!-- Post 2 -->
+            <article class="post-card" id="post-2">
+                <div class="tags-container">
+                    <a href="/tag/python" class="tag tag-python">Python</a>
+                    <a href="/tag/devops" class="tag tag-devops">DevOps</a>
+                </div>
+                <h2 class="post-title">
+                    <a href="/blog/automatizacion-con-python-y-cron-jobs">Cómo automatizar tus scripts de Python usando tareas cron</a>
+                </h2>
+                <div class="post-meta">
+                    <span>Por <span class="author">Laura Martínez</span></span>
+                    <span>•</span>
+                    <time class="date" datetime="2026-05-15">15 de Mayo, 2026</time>
+                </div>
+                <p class="post-excerpt">
+                    ¿Tienes un scraper o un script de copia de seguridad que necesitas que se ejecute a diario? En esta guía te enseñamos a configurar programadores de tareas en Windows y GNU/Linux paso a paso.
+                </p>
+                <a href="/blog/automatizacion-con-python-y-cron-jobs" class="read-more">Leer artículo completo →</a>
+            </article>
+
+            <!-- Post 3 -->
+            <article class="post-card" id="post-3">
+                <div class="tags-container">
+                    <a href="/tag/javascript" class="tag tag-javascript">JavaScript</a>
+                    <a href="/tag/webscraping" class="tag tag-webscraping">Web Scraping</a>
+                </div>
+                <h2 class="post-title">
+                    <a href="/blog/scraping-dinamico-playwright-vs-puppeteer">Scraping Dinámico: Comparando Playwright con Puppeteer en Node.js</a>
+                </h2>
+                <div class="post-meta">
+                    <span>Por <span class="author">Carlos Gómez</span></span>
+                    <span>•</span>
+                    <time class="date" datetime="2026-05-10">10 de Mayo, 2026</time>
+                </div>
+                <p class="post-excerpt">
+                    Analizamos el rendimiento, facilidad de uso y características principales de las dos herramientas más populares para controlar navegadores automatizados y extraer contenido generado por JavaScript.
+                </p>
+                <a href="/blog/scraping-dinamico-playwright-vs-puppeteer" class="read-more">Leer artículo completo →</a>
+            </article>
+
+            <!-- Post 4 -->
+            <article class="post-card" id="post-4">
+                <div class="tags-container">
+                    <a href="/tag/python" class="tag tag-python">Python</a>
+                </div>
+                <h2 class="post-title">
+                    <a href="/blog/introduccion-a-las-expresiones-regulares-en-python">Introducción a las Expresiones Regulares con el módulo re de Python</a>
+                </h2>
+                <div class="post-meta">
+                    <span>Por <span class="author">Ana Sanz</span></span>
+                    <span>•</span>
+                    <time class="date" datetime="2026-05-02">2 de Mayo, 2026</time>
+                </div>
+                <p class="post-excerpt">
+                    Las expresiones regulares son una herramienta indispensable para limpiar y formatear texto tras realizar web scraping. Aprende a dominar los patrones básicos.
+                </p>
+                <a href="/blog/introduccion-a-las-expresiones-regulares-en-python" class="read-more">Leer artículo completo →</a>
+            </article>
+
+        </main>
+
+        <aside class="sidebar">
+            <h3>Etiquetas Populares</h3>
+            <div class="popular-tags">
+                <a href="/tag/python" class="tag tag-python">Python (3)</a>
+                <a href="/tag/webscraping" class="tag tag-webscraping">Web Scraping (2)</a>
+                <a href="/tag/javascript" class="tag tag-javascript">JavaScript (1)</a>
+                <a href="/tag/devops" class="tag tag-devops">DevOps (1)</a>
+            </div>
+        </aside>
+    </div>
+</body>
+</html>
